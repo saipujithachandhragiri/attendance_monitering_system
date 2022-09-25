@@ -1,0 +1,884 @@
+.c-teacher-profile-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.c-teacher-profile-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.c-teacher-profile-form {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 75%;
+  height: 85%;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.c-teacher-profile-profile-border {
+  top: 65px;
+  left: 0px;
+  right: 0px;
+  width: 358px;
+  height: 122px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+}
+.c-teacher-profile-text {
+  top: -45px;
+  left: 0px;
+  color: #040404;
+  position: absolute;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+}
+.c-teacher-profile-profile-text {
+  top: 05px;
+  left: 120px;
+  right: 05px;
+  width: 236px;
+  bottom: -13px;
+  height: 106px;
+  position: absolute;
+}
+.c-teacher-profile-text01 {
+  top: 10px;
+  left: 9px;
+  color: rgb(8, 8, 8);
+  position: absolute;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.c-teacher-profile-text02 {
+  top: 40px;
+  left: 09px;
+  color: rgb(8, 8, 8);
+  position: absolute;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.c-teacher-profile-text03 {
+  top: 70px;
+  left: 9px;
+  color: rgb(8, 8, 8);
+  position: absolute;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.c-teacher-profile-icon {
+  top: 70px;
+  fill: #000000;
+  right: 22px;
+  width: 24px;
+  height: 24px;
+  opacity: 0.85;
+  position: absolute;
+}
+.c-teacher-profile-image {
+  top: 10px;
+  left: 15px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+}
+.c-teacher-profile-text04 {
+  top: 135px;
+  left: 0px;
+  color: rgb(4, 4, 4);
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 1.5rem;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700;
+}
+.c-teacher-profile-main1 {
+  top: 270px;
+  left: 0px;
+  right: 0px;
+  width: 55%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+}
+.c-teacher-profile-class1 {
+  top: 0px;
+  left: 0px;
+  width: 49%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+}
+.c-teacher-profile-text05 {
+  top: 10px;
+  left: 10px;
+  color: #080808;
+  position: absolute;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.c-teacher-profile-icon02 {
+  top: 17px;
+  fill: #fd6969;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.c-teacher-profile-navlink {
+  top: 65px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 152px;
+  height: 33px;
+  margin: auto;
+  padding: 0px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  text-align: center;
+  font-family: Exo 2;
+  font-weight: 500;
+  border-color: #f56120;
+  border-radius: var(--dl-radius-radius-radius75);
+  text-decoration: none;
+  background-color: rgb(245, 97, 32);
+}
+.c-teacher-profile-class2 {
+  top: 0px;
+  right: 0px;
+  width: 49%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+}
+.c-teacher-profile-text06 {
+  top: 10px;
+  left: 10px;
+  color: #080808;
+  position: absolute;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.c-teacher-profile-icon06 {
+  top: 17px;
+  fill: #332915;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.c-teacher-profile-navlink1 {
+  top: 65px;
+  left: 78px;
+  color: rgb(0, 0, 0);
+  width: 152px;
+  height: 33px;
+  padding: 0px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  text-align: center;
+  font-family: Exo 2;
+  font-weight: 500;
+  border-color: #f56120;
+  border-radius: var(--dl-radius-radius-radius75);
+  text-decoration: none;
+  background-color: rgb(245, 97, 32);
+}
+.c-teacher-profile-main2 {
+  top: 400px;
+  left: 0px;
+  right: 0px;
+  width: 55%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+}
+.c-teacher-profile-class11 {
+  top: 0px;
+  left: 0px;
+  width: 49%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+}
+.c-teacher-profile-text07 {
+  top: 10px;
+  left: 10px;
+  color: rgb(8, 8, 8);
+  position: absolute;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.c-teacher-profile-icon10 {
+  top: 17px;
+  fill: #f3e252;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.c-teacher-profile-navlink2 {
+  top: 65px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 152px;
+  height: 33px;
+  margin: auto;
+  padding: 0px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  text-align: center;
+  font-family: Exo 2;
+  font-weight: 500;
+  border-color: #f56120;
+  border-radius: var(--dl-radius-radius-radius75);
+  text-decoration: none;
+  background-color: rgb(245, 97, 32);
+}
+.c-teacher-profile-class21 {
+  top: 0px;
+  right: 0px;
+  width: 49%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+}
+.c-teacher-profile-text08 {
+  top: 10px;
+  left: 10px;
+  color: rgb(8, 8, 8);
+  position: absolute;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.c-teacher-profile-icon14 {
+  top: 17px;
+  fill: #0aa899;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.c-teacher-profile-navlink3 {
+  top: 65px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 152px;
+  height: 33px;
+  margin: auto;
+  padding: 0px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  text-align: center;
+  font-family: Exo 2;
+  font-weight: 500;
+  border-color: #f56120;
+  border-radius: var(--dl-radius-radius-radius75);
+  text-decoration: none;
+  background-color: rgb(245, 97, 32);
+}
+.c-teacher-profile-main3 {
+  top: 530px;
+  left: 0px;
+  right: 0px;
+  width: 55%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+}
+.c-teacher-profile-class12 {
+  top: 0px;
+  left: 0px;
+  width: 49%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+}
+.c-teacher-profile-text09 {
+  top: 10px;
+  left: 10px;
+  color: rgb(8, 8, 8);
+  position: absolute;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.c-teacher-profile-icon18 {
+  top: 17px;
+  fill: #8e69fd;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.c-teacher-profile-navlink4 {
+  top: 65px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 152px;
+  height: 33px;
+  margin: auto;
+  padding: 0px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  text-align: center;
+  font-family: Exo 2;
+  font-weight: 500;
+  border-color: #f56120;
+  border-radius: var(--dl-radius-radius-radius75);
+  text-decoration: none;
+  background-color: rgb(245, 97, 32);
+}
+.c-teacher-profile-class22 {
+  top: 0px;
+  right: 0px;
+  width: 49%;
+  height: 116px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+}
+.c-teacher-profile-navlink5 {
+  top: 0px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 152px;
+  bottom: 0px;
+  height: 33px;
+  margin: auto;
+  padding: 0px;
+  position: absolute;
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  font-style: normal;
+  text-align: center;
+  font-family: Exo 2;
+  font-weight: 500;
+  border-color: #f56120;
+  border-radius: var(--dl-radius-radius-radius75);
+  text-decoration: none;
+  background-color: rgb(245, 97, 32);
+}
+@media(max-width: 1170px) {
+  .c-teacher-profile-form {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 75%;
+    height: 85%;
+    margin: auto;
+    position: absolute;
+  }
+  .c-teacher-profile-profile-border {
+    height: 123px;
+  }
+  .c-teacher-profile-image {
+    top: 15px;
+    left: 15px;
+    position: absolute;
+  }
+  .c-teacher-profile-text04 {
+    top: 138px;
+  }
+  .c-teacher-profile-main1 {
+    width: 60%;
+    height: 123px;
+  }
+  .c-teacher-profile-class1 {
+    height: 123px;
+  }
+  .c-teacher-profile-text05 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .c-teacher-profile-class2 {
+    height: 123px;
+  }
+  .c-teacher-profile-text06 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink1 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .c-teacher-profile-main2 {
+    width: 60%;
+    height: 123px;
+  }
+  .c-teacher-profile-class11 {
+    height: 123px;
+  }
+  .c-teacher-profile-text07 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink2 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .c-teacher-profile-class21 {
+    height: 123px;
+  }
+  .c-teacher-profile-text08 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink3 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .c-teacher-profile-main3 {
+    top: 535px;
+    width: 60%;
+    height: 123px;
+  }
+  .c-teacher-profile-class12 {
+    height: 123px;
+  }
+  .c-teacher-profile-text09 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink4 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .c-teacher-profile-class22 {
+    height: 123px;
+  }
+  .c-teacher-profile-navlink5 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media(max-width: 991px) {
+  .c-teacher-profile-form {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .c-teacher-profile-profile-border {
+    height: 126px;
+  }
+  .c-teacher-profile-image {
+    top: 15px;
+    left: 15px;
+    position: absolute;
+  }
+  .c-teacher-profile-main1 {
+    width: 70%;
+    height: 126px;
+  }
+  .c-teacher-profile-class1 {
+    height: 126px;
+  }
+  .c-teacher-profile-text05 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-class2 {
+    height: 126px;
+  }
+  .c-teacher-profile-text06 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-main2 {
+    width: 70%;
+    height: 126px;
+  }
+  .c-teacher-profile-class11 {
+    height: 126px;
+  }
+  .c-teacher-profile-text07 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-class21 {
+    height: 126px;
+  }
+  .c-teacher-profile-text08 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-main3 {
+    width: 70%;
+    height: 126px;
+  }
+  .c-teacher-profile-class12 {
+    height: 126px;
+  }
+  .c-teacher-profile-text09 {
+    color: #000000;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-class22 {
+    height: 126px;
+  }
+}
+@media(max-width: 767px) {
+  .c-teacher-profile-form {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 85%;
+    margin: auto;
+  }
+  .c-teacher-profile-image {
+    top: 15px;
+    left: 15px;
+    position: absolute;
+  }
+  .c-teacher-profile-main1 {
+    width: 85%;
+  }
+  .c-teacher-profile-text05 {
+    top: 0px;
+    left: 0px;
+    color: #000000;
+    position: absolute;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-text06 {
+    top: 0px;
+    left: 0px;
+    color: #000000;
+    position: absolute;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-icon06 {
+    fill: #ff8600;
+  }
+  .c-teacher-profile-main2 {
+    width: 85%;
+  }
+  .c-teacher-profile-text07 {
+    top: 0px;
+    left: 0px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-text08 {
+    top: 0px;
+    left: 0px;
+    color: #000000;
+    position: absolute;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-main3 {
+    width: 85%;
+  }
+  .c-teacher-profile-text09 {
+    top: 0px;
+    left: 0px;
+    color: #000000;
+    position: absolute;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+}
+@media(max-width: 488px) {
+  .c-teacher-profile-form {
+    left: 0px;
+    right: 0px;
+    width: 99%;
+    height: 85%;
+    margin: auto;
+  }
+  .c-teacher-profile-profile-border {
+    top: 68px;
+    height: 119px;
+  }
+  .c-teacher-profile-text01 {
+    top: 7px;
+  }
+  .c-teacher-profile-text02 {
+    top: 37px;
+  }
+  .c-teacher-profile-text03 {
+    top: 66px;
+  }
+  .c-teacher-profile-icon {
+    top: 66px;
+  }
+  .c-teacher-profile-image {
+    top: 10px;
+    left: 15px;
+    position: absolute;
+  }
+  .c-teacher-profile-main1 {
+    width: 100%;
+    height: 119px;
+  }
+  .c-teacher-profile-class1 {
+    top: 0px;
+    height: 119px;
+  }
+  .c-teacher-profile-text05 {
+    top: 0px;
+    left: 0px;
+    color: #000000;
+    position: absolute;
+    font-style: normal;
+    margin-top: 05px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-icon02 {
+    top: 0px;
+    right: 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .c-teacher-profile-navlink {
+    color: rgb(0, 0, 0);
+    width: 130px;
+    height: 30px;
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.76;
+    background-color: #f56120;
+  }
+  .c-teacher-profile-class2 {
+    height: 119px;
+  }
+  .c-teacher-profile-text06 {
+    top: 0px;
+    left: 0px;
+    color: #000000;
+    position: absolute;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink1 {
+    color: rgb(0, 0, 0);
+    width: 130px;
+    height: 30px;
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.76;
+    background-color: #f56120;
+  }
+  .c-teacher-profile-main2 {
+    width: 100%;
+    height: 119px;
+  }
+  .c-teacher-profile-class11 {
+    height: 119px;
+  }
+  .c-teacher-profile-text07 {
+    top: 0px;
+    left: 0px;
+    color: #000000;
+    position: absolute;
+    font-style: normal;
+    margin-top: 05px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink2 {
+    color: rgb(0, 0, 0);
+    width: 130px;
+    height: 30px;
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.76;
+    background-color: #f56120;
+  }
+  .c-teacher-profile-class21 {
+    height: 119px;
+  }
+  .c-teacher-profile-text08 {
+    top: 0px;
+    left: 0px;
+    color: #000000;
+    position: absolute;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink3 {
+    color: rgb(0, 0, 0);
+    width: 130px;
+    height: 30px;
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.76;
+    background-color: #f56120;
+  }
+  .c-teacher-profile-main3 {
+    width: 100%;
+    height: 119px;
+  }
+  .c-teacher-profile-class12 {
+    height: 119px;
+  }
+  .c-teacher-profile-text09 {
+    top: 0px;
+    left: 0px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-style: normal;
+    margin-top: 05px;
+    font-family: Exo 2;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .c-teacher-profile-navlink4 {
+    color: rgb(0, 0, 0);
+    width: 130px;
+    height: 30px;
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.76;
+    background-color: #f56120;
+  }
+  .c-teacher-profile-class22 {
+    height: 119px;
+  }
+  .c-teacher-profile-navlink5 {
+    color: rgb(0, 0, 0);
+    width: 130px;
+    height: 30px;
+    padding: 0px;
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.76;
+    background-color: #f56120;
+  }
+}

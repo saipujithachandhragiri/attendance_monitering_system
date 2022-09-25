@@ -1,0 +1,195 @@
+.a-home-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: center;
+}
+.a-home-navlink {
+  display: contents;
+}
+.a-home-card1 {
+  top: 20%;
+  left: 0px;
+  right: 0px;
+  width: 286px;
+  height: 155px;
+  margin: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  margin-right: auto;
+  border-radius: var(--dl-radius-radius-radius50);
+  flex-direction: column;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.a-home-container1 {
+  flex: 0 0 auto;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-self: center;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #f87171, #dc2626);
+}
+.a-home-icon {
+  fill: var(--dl-color-gray-white);
+  width: 35px;
+  height: 24px;
+  align-self: center;
+}
+.a-home-text {
+  color: var(--dl-color-secondary-100);
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Open Sans;
+}
+.a-home-navlink1 {
+  display: contents;
+}
+.a-home-card2 {
+  top: 45%;
+  left: 0px;
+  right: 0px;
+  width: 286px;
+  height: 147px;
+  margin: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius50);
+  flex-direction: column;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.a-home-container2 {
+  flex: 0 0 auto;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-self: center;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #f87171, #dc2626);
+}
+.a-home-icon2 {
+  fill: var(--dl-color-gray-white);
+  width: 35px;
+  height: 24px;
+  align-self: center;
+}
+.a-home-text1 {
+  color: var(--dl-color-secondary-100);
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Open Sans;
+}
+.a-home-text2 {
+  top: 10%;
+  left: 0px;
+  color: #080808;
+  right: 0px;
+  width: 605px;
+  margin: auto;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 700;
+}
+@media(max-width: 991px) {
+  .a-home-card1 {
+    top: 45%;
+    right: -14px;
+    width: 40%;
+    align-items: center;
+  }
+  .a-home-card2 {
+    top: 22%;
+    left: 0px;
+    right: 0px;
+    width: 40%;
+    margin: auto;
+  }
+  .a-home-text2 {
+    top: 10%;
+    left: 0px;
+    color: rgb(8, 8, 8);
+    right: 0px;
+    width: 517px;
+    margin: auto;
+    font-style: italic;
+    font-family: Noto Sans;
+    font-weight: 700;
+  }
+}
+@media(max-width: 767px) {
+  .a-home-card1 {
+    top: 40%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .a-home-card2 {
+    top: 22%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .a-home-text2 {
+    left: 0px;
+    color: rgb(8, 8, 8);
+    right: 0px;
+    width: 70%;
+    margin: auto;
+    font-style: italic;
+    font-family: Noto Sans;
+    font-weight: 700;
+  }
+}
+@media(max-width: 488px) {
+  .a-home-card1 {
+    top: 30%;
+    left: 0px;
+    right: 0px;
+    height: 140px;
+    margin: auto;
+  }
+  .a-home-card2 {
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    height: 140px;
+    margin: auto;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .a-home-text2 {
+    top: 111px;
+    left: -4px;
+    color: rgb(8, 8, 8);
+    width: 100%;
+    margin: auto;
+    font-style: italic;
+    font-family: Noto Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

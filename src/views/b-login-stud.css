@@ -1,0 +1,290 @@
+.b-login-stud-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.b-login-stud-pricing-card {
+  top: 18%;
+  left: 0px;
+  right: 0px;
+  width: 577px;
+  height: 596px;
+  margin: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  max-width: 450px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: center;
+  border-color: #ded9d9;
+  border-width: var(--dl-size-size-halfunit);
+  border-radius: var(--dl-radius-radius-radius50);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+.b-login-stud-pricing-card:hover {
+  transform: scale(1.02);
+}
+.b-login-stud-text {
+  top: 80px;
+  left: 37px;
+  color: #000000;
+  width: 363px;
+  margin: mixed;
+  padding: mixed;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  font-family: Verdana;
+  font-weight: 700;
+}
+.b-login-stud-textinput {
+  top: 230px;
+  left: 89px;
+  color: #000000;
+  width: 280px;
+  margin: mixed;
+  padding: mixed;
+  position: absolute;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.b-login-stud-textinput1 {
+  top: 360px;
+  left: 87px;
+  color: #000000;
+  width: 280px;
+  margin: mixed;
+  padding: mixed;
+  position: absolute;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.b-login-stud-text1 {
+  top: 320px;
+  left: 91px;
+  color: rgb(14, 0, 0);
+  margin: mixed;
+  padding: mixed;
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+}
+.b-login-stud-text2 {
+  top: 190px;
+  left: 93px;
+  color: rgb(14, 0, 0);
+  margin: mixed;
+  padding: mixed;
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+}
+.b-login-stud-navlink {
+  top: 463px;
+  left: 0px;
+  color: rgba(0, 0, 0, 0.5400000214576721);
+  right: 0px;
+  width: 111px;
+  margin: auto;
+  padding: mixed;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700;
+  border-color: #f56120;
+  border-radius: var(--dl-radius-radius-radius25);
+  padding-bottom: mixed;
+  text-decoration: none;
+  background-color: #f56120;
+}
+@media(max-width: 1170px) {
+  .b-login-stud-pricing-card {
+    left: 0px;
+    right: 0px;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+  }
+  .b-login-stud-navlink {
+    border-color: #f56120;
+    background-color: #f56120;
+  }
+}
+@media(max-width: 991px) {
+  .b-login-stud-pricing-card {
+    width: 45%;
+    height: 60%;
+    max-width: 100%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    align-items: center;
+    border-width: var(--dl-size-size-unit);
+    border-radius: var(--dl-radius-radius-radius50);
+    justify-content: flex-start;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+  }
+  .b-login-stud-text {
+    top: 80px;
+  }
+  .b-login-stud-textinput {
+    top: 220px;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    text-align: left;
+  }
+  .b-login-stud-textinput1 {
+    top: 340px;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .b-login-stud-text1 {
+    top: 300px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .b-login-stud-text2 {
+    top: 180px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .b-login-stud-navlink {
+    top: 440px;
+    left: 0px;
+    color: #000000;
+    right: 0px;
+    height: 55px;
+    margin: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 700;
+    border-color: #f56120;
+    border-radius: var(--dl-radius-radius-radius25);
+    padding-right: mixed;
+    background-color: #f56120;
+  }
+}
+@media(max-width: 767px) {
+  .b-login-stud-pricing-card {
+    left: 0px;
+    right: 0px;
+    width: 98%;
+    margin: auto;
+    max-width: 450px;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    align-items: center;
+    border-width: var(--dl-size-size-unit);
+    border-radius: var(--dl-radius-radius-radius50);
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+  }
+  .b-login-stud-textinput {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .b-login-stud-textinput1 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .b-login-stud-navlink {
+    color: #0c0c0c;
+    box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    border-color: #f56120;
+    border-radius: var(--dl-radius-radius-radius25);
+    background-color: #f56120;
+  }
+}
+@media(max-width: 488px) {
+  .b-login-stud-pricing-card {
+    left: 0px;
+    right: 0px;
+    width: 98%;
+    height: 55%;
+    margin: auto;
+    padding: 0px;
+    align-self: center;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-color: #dcd8d8;
+    border-style: outset;
+    border-width: var(--dl-size-size-unit);
+    border-radius: var(--dl-radius-radius-radius50);
+    border-top-width: 01px;
+    border-left-width: 01px;
+    border-right-width: 01px;
+    border-bottom-width: 01px;
+  }
+  .b-login-stud-text {
+    top: 53px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .b-login-stud-textinput {
+    top: 195px;
+    left: 71px;
+    margin: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .b-login-stud-textinput1 {
+    top: 300px;
+    left: 71px;
+    margin: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .b-login-stud-text1 {
+    top: 260px;
+    left: 80px;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .b-login-stud-text2 {
+    top: 155px;
+    left: 80px;
+    color: rgb(14, 0, 0);
+    margin: auto;
+    font-style: normal;
+    font-family: Noto Sans;
+    font-weight: 400;
+  }
+  .b-login-stud-navlink {
+    top: 380px;
+    left: 0px;
+    color: #232323;
+    right: 0px;
+    width: 143px;
+    bottom: 79px;
+    height: 51px;
+    margin: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+    font-style: normal;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 700;
+    border-color: #c76940;
+    border-radius: var(--dl-radius-radius-radius75);
+    text-transform: uppercase;
+    background-color: #f56120;
+  }
+}

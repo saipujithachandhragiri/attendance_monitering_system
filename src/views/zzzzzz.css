@@ -1,0 +1,136 @@
+.zzzzzz-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.zzzzzz-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.zzzzzz-container2 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.zzzzzz-text {
+  top: 15%;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 5rem;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 700;
+}
+.zzzzzz-navlink {
+  top: 0px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 22%;
+  bottom: 0px;
+  height: 20%;
+  margin: auto;
+  position: absolute;
+  font-size: 6rem;
+  align-self: center;
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px, rgb(212, 212, 212) 5px 5px 10px 0px;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700;
+  border-color: #f56120;
+  text-decoration: none;
+  background-color: rgb(245, 97, 32);
+}
+@media(max-width: 1170px) {
+  .zzzzzz-text {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .zzzzzz-navlink {
+    top: 30%;
+    left: 0px;
+    right: 0px;
+    width: 30%;
+    height: 20%;
+    margin: auto;
+  }
+}
+@media(max-width: 991px) {
+  .zzzzzz-text {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .zzzzzz-navlink {
+    top: 30%;
+    width: 40%;
+    height: 20%;
+  }
+}
+@media(max-width: 767px) {
+  .zzzzzz-text {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .zzzzzz-navlink {
+    top: 30%;
+    left: 0px;
+    color: rgb(0, 0, 0);
+    right: 0px;
+    width: 80%;
+    bottom: 0px;
+    height: 20%;
+    margin: auto;
+    font-size: 6rem;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+@media(max-width: 488px) {
+  .zzzzzz-text {
+    top: 200px;
+    left: 0px;
+    color: rgb(0, 0, 0);
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    font-size: 3rem;
+    align-self: center;
+    font-style: normal;
+    font-family: Noto Sans;
+    font-weight: 700;
+  }
+  .zzzzzz-navlink {
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    width: 70%;
+    bottom: 0px;
+    height: 18%;
+    margin: auto;
+    padding: 0px;
+    position: absolute;
+    font-size: 5.5rem;
+    text-align: center;
+    background-color: #f56120;
+  }
+}
